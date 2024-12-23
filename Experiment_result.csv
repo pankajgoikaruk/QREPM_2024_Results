@@ -1,0 +1,7 @@
+Abbreviation,Experiment Names,Avg_MAE,Avg_RMSE,Avg_MAPE,Avg_ME,Avg_Adj_R2,Dataset,Execution_Time_in_Min
+QREPM,Quadtree-Refined Ensemble Predictive Model (Set Zero Prediction at Root Node + Model Refined + Prediction Pass to Children + Aggregate Predictions),1.03,1.22,1.09,0.95,0.87,4967428,49
+QEPM,Ablation: Quadtree-Ensemble Predictive Model (with Prediction Pass + Root Model is trained with n features and rest with n+1 features + Agg Pred),2.72,2.96,2.58,2.37,0.81,4967428,41.91
+QWPPM,Ablation: Quadtree-Ensemble Predictive Model (without Prediction Pass + Root Model is trained with n features and rest with n+1 features + Agg Pred),4.72,5.32,4.57,4.22,0.78,4967428,25.55
+QWFPM,Ablation: Quadtree-Ensemble Predictive Model (without Additional Features + Agg Pred),6.12,6.84,5.93,5.63,0.69,4967428,21.82
+QWFPPM,Ablation: Quadtree-Ensemble Predictive Model (without Additional Features + without Prediction Pass + Agg Pred),7.33,7.98,7.46,6.61,0.64,4967428,14.93
+SARIMA,Baseline: HDBSCAN-SARIMA,11.61,14.06,12.03,8.8,0,4967428,116.42
